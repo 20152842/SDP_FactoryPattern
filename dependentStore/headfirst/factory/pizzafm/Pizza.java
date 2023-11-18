@@ -2,7 +2,7 @@ package headfirst.factory.pizzafm;
 
 import java.util.ArrayList;
 
-public abstract class Pizza {
+public abstract class Pizza { 
 	String name;
 	String dough;
 	String sauce;
