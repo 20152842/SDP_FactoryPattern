@@ -1,8 +1,8 @@
 package headfirst.factory.pizzafm;
 
-public class SeoulStyleClamPizza {
+public class SeoulStyleClamPizza extends Pizza{
     public SeoulStyleClamPizza() {
-        name = "Chicago Style Clam Pizza";
+        name = "Seoul Style Clam Pizza";
         dough = "Extra Thick Crust Dough";
         sauce = "Plum Tomato Sauce";
 

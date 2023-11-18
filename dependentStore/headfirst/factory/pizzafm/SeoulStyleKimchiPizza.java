@@ -1,13 +1,13 @@
 package headfirst.factory.pizzafm;
 
-public class SeoulStyleKimchiPizza {
+public class SeoulStyleKimchiPizza extends Pizza{
     public SeoulStyleKimchiPizza() {
-        name = "Chicago Style Clam Pizza";
-        dough = "Extra Thick Crust Dough";
+        name = "Seoul Style Kimchi Pizza";
+        dough = "Dough made by Rice";
         sauce = "Plum Tomato Sauce";
 
         toppings.add("Shredded Mozzarella Cheese");
-        toppings.add("Frozen Clams from Chesapeake Bay");
+        toppings.add("Kimchi Toppings Add");
     }
 
     void cut() {

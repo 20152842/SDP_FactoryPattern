@@ -1,13 +1,15 @@
 package headfirst.factory.pizzafm;
 
-public class SeoulStyleVeggiePizza {
+public class SeoulStyleVeggiePizza extends Pizza{
     public SeoulStyleVeggiePizza() {
-        name = "Chicago Style Clam Pizza";
+        name = "Seoul Style Deep Dish Veggie Pizza";
         dough = "Extra Thick Crust Dough";
         sauce = "Plum Tomato Sauce";
 
         toppings.add("Shredded Mozzarella Cheese");
-        toppings.add("Frozen Clams from Chesapeake Bay");
+        toppings.add("Black Olives");
+        toppings.add("Spinach");
+        toppings.add("Eggplant");
     }
 
     void cut() {
