@@ -8,7 +8,7 @@ public class SeoulStyleVeggiePizza extends Pizza{
 
         toppings.add("Shredded Mozzarella Cheese");
         toppings.add("Black Olives");
-        toppings.add("Spinach");
+        toppings.add("Spinach"); 
         toppings.add("Eggplant");
     }
 
